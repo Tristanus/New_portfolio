@@ -1,0 +1,132 @@
+/*fonts*/
+
+@font-face 
+{
+    font-family: NeutraText-Bold;
+    src: url(fonts/NeutraText-Bold.otf);
+}
+
+@font-face 
+{
+    font-family: Lato;
+    src: url(fonts/lato/Lato-Regular.ttf);
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #16A085;
+	font-family: Lato;
+}
+
+.white
+{
+	color: #F8F8F8;
+}
+
+#home
+{
+	position: relative;
+}
+
+#home a.show
+{
+	opacity: 1;
+    visibility: visible;
+}
+
+.tcenter{
+	text-align: center;
+}
+
+.fullHeight
+{
+	height: 100%;
+}
+
+#home .about
+{
+	color: #f8f8f8;
+}
+
+#home .about.show
+{
+	top: 4%;
+}
+
+#home .linkNav
+{
+	border: 2px solid transparent;
+    display: block;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    left: 50%;
+    letter-spacing: 0.1em;
+    margin-left: -62px;
+    padding: 6px 10px 8px 10px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+}
+
+#home .center
+{
+	display: inline-table;
+    height: 100%;
+    width: 100%;
+}
+
+.centerKid
+{
+	display: table-cell;
+    vertical-align: middle;
+	color: #f8f8f8;
+	text-transform: uppercase;
+}
+
+#home .center h1
+{
+	font-family: NeutraText-Bold;
+	font-size: 3.8vw;
+}
+
+#home .center h2
+{
+    font-size: 1.5vw;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    margin: 50px 0 0 0;
+}
+
+#home .center h3
+{
+	margin: 50px 0 0 0;
+	letter-spacing: 0.2em;
+	font-weight: 700;
+	font-size: 1.0vw;
+}
+
+#home .center a{
+	color: #f8f8f8;
+}
+
+#home .center a:hover
+{
+	border-color: #f8f8f8;
+}
+
+#home .work
+{
+	color: #f8f8f8;
+}
+
+#home .work.show
+{
+	bottom: 4%;
+}
